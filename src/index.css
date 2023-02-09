@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.auth {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.auth-2 {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  width: 420px;
+  height: 300px;
+}
+.text {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+.items img {
+  width: 90px;
+
+  object-fit: contain;
+}
+
+.banners {
+  height: 80vh;
+}
+.li-items {
+  font-family: sans-serif;
+}
+.m-bnner {
+  height: 100%;
+  display: flex;
+}
+.l-banner {
+  height: 95%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.b-texts {
+  width: 290px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.b-texts h6 {
+  margin-bottom: -5px;
+  margin-left: 1rem;
+}
+.b-texts h1 {
+  font-size: 55px;
+  font-weight: bolder;
+}
+.b-texts button {
+  background-color: #e43c09;
+  color: white;
+  border: none;
+  width: 180px;
+  padding: 10px 2px;
+  border-radius: 30px;
+}
+.r-banner {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.r-banner img {
+  width: 500px;
+  height: 500px;
+  object-fit: contain;
+  transition: 1s;
+}
+.r-banner img:hover {
+  transform: scale(1.02);
+}
+.nav-r ul li {
+  position: relative;
+}
+.icons1 {
+  background-color: #0275d8;
+  padding: 1rem;
+  border-radius: 50%;
+  color: white;
+}
+
+.titles {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  margin-left: -2rem;
+}
+.body-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.tesxt {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.tesxt-1 {
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.btn-items button {
+  width: 100px;
+  border: 1px solid #e43c09;
+  border-radius: 10px;
+  color: #e43c09;
+}
+
+.l-cart img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.order-image {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+}
