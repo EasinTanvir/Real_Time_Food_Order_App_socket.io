@@ -50,13 +50,13 @@ app.use((error, req, res, next) => {
   res.json({ message: error.message || "unknown error occured" });
 });
 
-const server = app.listen(5000, () => {
+const server = app.listen(process.env.PORt, () => {
   console.log("server running");
 });
 
 const io = require("socket.io")(server, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://foodorder.easintanvir.com",
   },
 });
 
