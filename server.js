@@ -50,7 +50,7 @@ app.use((error, req, res, next) => {
   res.json({ message: error.message || "unknown error occured" });
 });
 
-const server = app.listen(process.env.PORt, () => {
+const server = app.listen(process.env.PORT, () => {
   console.log("server running");
 });
 
